@@ -1,304 +1,171 @@
-<!DOCTYPE html>
+<style>
+body {
+  margin:0 auto;
+  width:800px;
+}
+</style>
 <html>
-  <head>
-    <meta charset="utf 8">
-  </dir>
-  <style type="css">
-    </style>
-  <font face = "Arial">  </font>
-  <div VALIGN="MIDDLE"align=RIGHT >
-    <h4>แบบ พ.1/42</h4>
-    <label for="txtnumber">เลขที่</label>
-    <Input type="text" name="txtnumber" /><br />
-  </div>
-
-<CENTER> <img src="logo.png"/> </CENTER>
-    <title>PSU Application Form</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+<title>ใบสมัครคัดเลือกพนักงงาน ม.อ.</title>
+<p align = "right">แบบ พ.1/42</p>
+<p align = "right">เลขที่ <input type="text" id="" /></p>
+<p align = "right"><input type="image"name="Picture" border="1"/></p>
+<center><img src="logo.png" width="100"/></center>
+<center><FONT SIZE=5>ใบสมัครคัดเลือกพนักงานมหาวิทยาลัยสงขลานครินทร</FONT></center>
+<center><p>ตำแหน่ง<input type="text" name="ตำแหน่ง"
+value=""/> </p></center>
+ </head>
   <body>
-      <div align="center">
-        <h4>ใบสมัครคัดเลือกพนักงานมหาวิทยาลัยสงขลานครินทร์<h4>
-      </div>
-      <form action="#" metbod="post">
-          <div align="center">
-            <label for="txtposition">ตำแหน่ง</label>
-            <Input type="text" name="txtposition" />
-          </div>
-          <div>
-            <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
-            <Input type="text" name="txtorg" /><br />
-            <label for="txtsalary">เงินเดือนที่ต้องการ</label>
-            <Input type="text" name="txtsalary" />
-            <label for="txtbath">บาท</label>
-            <label for="txtjobdescription">ลักษณะงาน</label>
-            <INPUT TYPE='CHECKBOX' NAME = "ลักษณะงาน" VALUE ="Full Time" > Full Time
-            <INPUT TYPE='CHECKBOX' NAME = "ลักษณะงาน" VALUE ="Part Time" > Part Time
-              <div align=>
-                <h4>1. ข้อมูลทั่วไป</h4>
-            <label for="txtID">เลขที่บัตรประชาชน</label>
-            <Input type="text" name="txtID" /><br />
-            <label for="txtname">ชื่อ</label>
-            <Input type="text" name="txtname" />
-            <label for="txtsurname">นามสกุล</label>
-            <Input type="text" name="txtsurname" /><br />
-            <label for="txtsex">เพศ</label>
-            <INPUT TYPE='CHECKBOX' NAME = "เพศ" VALUE ="ชาย" >ชาย
-            <INPUT TYPE='CHECKBOX' NAME = "เพศ" VALUE ="หญิง" >หญิง
-              <label for="txtbirthday">วันเดือนปีเกิด</label>
-              <Input type="text" name="txtbirthday" />
-              <label for="txtold">อายุ</label>
-              <Input type="text" name="txtold" />
-              <label for="txtyear">ปี</label>
-              <label for="txtrace">เชื้อชาติ</label>
-              <Input type="text" name="txtrace" />
-              <label for="txtnationality">สัญชาติ</label>
-              <Input type="text" name="txtnationality" />
-              <div align=>
-                <h4>2. สถานที่ติดตอไดสะดวก</h4>
-                <label for="txtHouse number">บ้านเลขที่</label>
-                <Input type="text" name="txtHouse number" />
-                <label for="txtswine">หมู่ที่</label>
-                <Input type="text" name="txtswine" />
-                <label for="txtvillage">หมู่บ้าน</label>
-                <Input type="text" name="txtvillage" />
-                <label for="txtalley">ตรอก/ซอย</label>
-                <Input type="text" name="txtalley" />
-                <label for="txtroad">ถนน</label>
-                <Input type="text" name="txtroad" /><br />
-                <label for="txtdistrict">ตําบล/แขวง</label>
-                <Input type="text" name="txtdistrict" />
-                <label for="txtprefecture">อําเภอ</label>
-                <Input type="text" name="txtprefecture" />
-                <label for="txtprovince">จังหวัด</label>
-                <Input type="text" name="txtprovince" />
-                <label for="txtpostal code">รหัสไปรษณีย์</label>
-                <Input type="text" name="txtpostal code" />
-                <label for="txttelephone code">โทรศัพท</label>
-                <Input type="text" name="txttelephone" /><br />
-                <label for="txtE-mail">E-mail</label>
-                <Input type="text" name="txtE-mail" />
-                <div align=>
-                  <h4>3. วุฒิการศึกษา</h4><br />
-                  <div align=>
-                  <u> ปริญญาตรี </u>
-                  &nbsp; &nbsp;<label for="txtEducation">วุฒิการศึกษา</label>
-                  <Input type="text" name="txtEducation" />
-                  &nbsp;&nbsp;<label for="txtsubject">สาขาวิชา</label>
-                  <Input type="text" name="txtsubject" /><br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label for="txteducational institution">สถาบันการศึกษา</label>
-                <Input type="text" name="txteducational institution" />
-                <label for="txtB.E.">สำเร็จ พ.ศ</label>
-                <Input type="text" name="txtB.E." /><br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <label for="txtgrade">เกรดเฉลี่ย</label>
-              <Input type="text" name="txtgrade" /><br/><br>
+  <p>คณะ/หนวยงานที่สมัคร<input type="text" name="คณะ/หนวยงานที่สมัคร"
+    value=""/></p>
+    <p>เงินเดือนที่ตองการ<input type="text" name="เงินเดือนที่ตองการ"
+    value=""/>บาท
+<p>  ลักษณะงาน <input type="radio" name="ลักษณะงาน"
+value="Full Time" />Full Time
+<input type="radio" name="ลักษณะงาน"
+value="Part Time" />Part Time  </p>
+<br>1. ข้อมูลทั่วไป
+  <p>เลขที่บัตรประชาชน <input type="text" id="" /></b>
+  <p>ชื่อ <input type="text" id="" />  นามสกุล <input type="text" id="" /></b>
+  <p> เพศ
+    <input type="radio" name="เพศ"
+    value="ชาย" />ชาย
+    <input type="radio" name="เพศ"
+    value="หญิง" />หญิง
+วัน/เดือน/ปีเกิด<input type="text" id="" />  อายุ<input type="text" id="" />ปี</p>
+<p>เชื้อชาติ<input type="text" id="" />สัญชาติ<input type="text" id="" /></p>
 
-              <div align=>
-              <u> ปริญญาโท</u>
-              &nbsp; &nbsp;<label for="txtEducation">วุฒิการศึกษา</label>
-              <Input type="text" name="txtEducation" />
-              &nbsp;&nbsp;<label for="txtsubject">สาขาวิชา</label>
-              <Input type="text" name="txtsubject" /><br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <label for="txteducational institution">สถาบันการศึกษา</label>
-              <Input type="text" name="txteducational institution" />
-              <label for="txtB.E.">สำเร็จ พ.ศ</label>
-              <Input type="text" name="txtB.E." /><br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <label for="txtgrade">เกรดเฉลี่ย</label>
-            <Input type="text" name="txtgrade" /><br/><br>
 
-            <div align=>
-            <u> ปริญญาเอก</u>
-            &nbsp; &nbsp;<label for="txtEducation">วุฒิการศึกษา</label>
-            <Input type="text" name="txtEducation" />
-            &nbsp;&nbsp;<label for="txtsubject">สาขาวิชา</label>
-            <Input type="text" name="txtsubject" /><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <label for="txteducational institution">สถาบันการศึกษา</label>
-            <Input type="text" name="txteducational institution" />
-            <label for="txtB.E.">สำเร็จ พ.ศ</label>
-            <Input type="text" name="txtB.E." /><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <label for="txtgrade">เกรดเฉลี่ย</label>
-          <Input type="text" name="txtgrade" /><br/><br>
+<br>2. สถานที่ติดต่อได้สะดวก
+บ้านเลขที่<input type="text" id="" /> หมู่ที่<input type="text" id="" />
+ <p>หมู่บ้าน <input type="text" id="" />  ตรอก/ซอย  <input type="text" id="" />
+  ถนน  <input type="text" id="" />
+<p>ตำบล/แขวง  <input type="text" id="" />  อำเภอ  <input type="text" id="" />
+จังหวัด  <input type="text" id="" />
+<p>รหัสไปรษณีย์  <input type="text" id="" />
+  โทรศัพท์  <input type="text" id="" /> e-mail  <input type="text" id="" /></br>
 
-          <div align=>
-          <u> อื่นๆ</u>
-          &nbsp; &nbsp;<label for="txtEducation">วุฒิการศึกษา</label>
-          <Input type="text" name="txtEducation" />
-          &nbsp;&nbsp;<label for="txtsubject">สาขาวิชา</label>
-          <Input type="text" name="txtsubject" /><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <label for="txteducational institution">สถาบันการศึกษา</label>
-          <Input type="text" name="txteducational institution" />
-          <label for="txtB.E.">สำเร็จ พ.ศ</label>
-          <Input type="text" name="txtB.E." /><br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label for="txtgrade">เกรดเฉลี่ย</label>
-        <Input type="text" name="txtgrade" /><br/>
 
-        <div align=>
-          <h4>4. ประวัติการทํางาน เรียงตามลําดับครั้งสุดทายไปหาครั้งแรก</h4>
-          <div align=>
-            <LI><u> สถานที่ทํางานครั้งสุดทาย</u>
-            <Input type="text" name="txtoffice" /><br/>
-          </UL>
-              <label for="txtPosition">ตําแหนง</label>
-              <Input type="text" name="txtPosition" />
-              <label for="txtmonth">ตั้งเเต่เดือน</label>
-              <Input type="text" name="txtmonth" />
-              <label for="txtyear">ปี</label>
-              <Input type="text" name="txtyear" /><br />
-            <label for="txttomonth"> ถึงเดือน</label>
-              <Input type="text" name="txttomonth" />
-              <label for="txtyear">ปี</label>
-              <Input type="text" name="txtyear" />
-              <label for="txtsalary">เงินเดือน</label>
-              <Input type="text" name="txtsalary" />
-              <label for="txtbath">บาท</label><br />
-              <label for="txtout">สาเหตุที่ออก</label>
-              <Input type="text" name="txtout" /><br /><br />
-              <div align=>
-                <LI><u>สถานที่ทํางาน</u>
-                <Input type="text" name="txtoffice" /><br />
+<br>3.วุฒิการศึกษา
+<p><U>ปริญญาตรี</U>
+<p> <dd>วุฒิการศึกษา  <input type="text" id="" />  สาขาวิชา  <input type="text" id="" /></dd>
+<p> <dd>สถาบันการศึกษา  <input type="text" id="" />  สำเร็จ พ.ศ.  <input type="text" id="" /></dd>
+<p> <dd>เกรดเฉลี่ย  <input type="text" id="" /></dd>
+<p><U>ปริญญาโท</U>
+<p> <dd>วุฒิการศึกษา  <input type="text" id="" />  สาขาวิชา  <input type="text" id="" /><dd>
+<p> <dd>สถาบันการศึกษา  <input type="text" id="" />  สำเร็จ พ.ศ.  <input type="text" id="" /></dd>
+<p> <dd>เกรดเฉลี่ย  <input type="text" id="" /></dd>
+<p><U>ปริญญาเอก</U>
+<p> <dd>วุฒิการศึกษา  <input type="text" id="" />  สาขาวิชา  <input type="text" id="" /></dd>
+<p> <dd>สถาบันการศึกษา  <input type="text" id="" />  สำเร็จ พ.ศ.  <input type="text" id="" /></dd>
+<p> <dd>เกรดเฉลี่ย  <input type="text" id="" /></dd>
+<p><U>อื่นๆ</U>
+<p> <dd>วุฒิการศึกษา  <input type="text" id="" />  สาขาวิชา  <input type="text" id="" /></dd>
+<p> <dd>สถาบันการศึกษา  <input type="text" id="" />  สำเร็จ พ.ศ.  <input type="text" id="" /></dd>
+<p> <dd>เกรดเฉลี่ย  <input type="text" id="" /></br></dd>
 
-                <label for="txtPosition">ตําแหนง</label>
-                <Input type="text" name="txtPosition" />
-                <label for="txtmonth">ตั้งเเต่เดือน</label>
-                <Input type="text" name="txtmonth" />
-                <label for="txtyear">ปี</label>
-                <Input type="text" name="txtyear" /><br />
-                <label for="txttomonth"> ถึงเดือน</label>
-                <Input type="text" name="txttomonth" />
-                <label for="txtyear">ปี</label>
-                <Input type="text" name="txtyear" />
-                <label for="txtsalary">เงินเดือน</label>
-                <Input type="text" name="txtsalary" />
-                <label for="txtbath">บาท</label><br />
-                <label for="txtout">สาเหตุที่ออก</label>
-                <Input type="text" name="txtout" /><br /><br />
 
-                <LI><u>สถานที่ทํางาน</u>
-                <Input type="text" name="txtoffice" /><br />
+<br>4. ประวัติการทำงาน เรียงตามลำดับครั้งสุดท้ายไปหาครั้งแรก
+  <p><dd>• สถานที่ทำงานครั้งสุดท้าย</dd>
+    <p>ตำแหน่ง  <input type="text" id="" />
+    <p>ตั้งแต่เดือน  <input type="text" id="" /> ปี  <input type="text" id="" /> ถึง  เดือน  <input type="text" id="" /> ปี เงินเดือน <input type="text" id="" /> บาท
+    <p>สาเหตุที่ออก <input type="text" id="" /></dd>
+  <p><dd>• สถานที่ทำงานครั้งสุดท้าย</dd>
+    <p>ตำแหน่ง  <input type="text" id="" />
+    <p>ตั้งแต่เดือน  <input type="text" id="" /> ปี  <input type="text" id="" /> ถึง  เดือน  <input type="text" id="" /> ปี เงินเดือน <input type="text" id="" /> บาท
+    <p>สาเหตุที่ออก <input type="text" id="" />
+  <p><dd>• สถานที่ทำงานครั้งสุดท้าย</dd>
+    <p>ตำแหน่ง  <input type="text" id="" />
+    <p>ตั้งแต่เดือน  <input type="text" id="" /> ปี  <input type="text" id="" /> ถึง  เดือน  <input type="text" id="" /> ปี เงินเดือน <input type="text" id="" /> บาท
+    <p>สาเหตุที่ออก <input type="text" id="" /></br>
 
-                <label for="txtPosition">ตําแหนง</label>
-                <Input type="text" name="txtPosition" />
-                <label for="txtmonth">ตั้งเเต่เดือน</label>
-                <Input type="text" name="txtmonth" />
-                <label for="txtyear">ปี</label>
-                <Input type="text" name="txtyear" /><br />
-                <label for="txttomonth"> ถึงเดือน</label>
-                <Input type="text" name="txttomonth" />
-                <label for="txtyear">ปี</label>
-                <Input type="text" name="txtyear" />
-                <label for="txtsalary">เงินเดือน</label>
-                <Input type="text" name="txtsalary" />
-                <label for="txtbath">บาท</label><br />
-                <label for="txtout">สาเหตุที่ออก</label>
-                <Input type="text" name="txtout" /><br /><br />
-                <p><b>5.ภาษา</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <b>พูด</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>อ่าน</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>เขียน</b>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ภาษาอังกฤษ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-         value="ดีมาก" />ดีมาก &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <input type="checkbox" name="อ่าน"
-         value="ดีมาก" />ดีมาก   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <input type="checkbox" name="เขียน"
-         value="ดีมาก" />ดีมาก</p>
-
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-        value="ดี" />ดี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" name="อ่าน"
-        value="ดี" />ดี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" name="เขียน"
-        value="ดี" />ดี </p>
-
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-        value="พอใช้" />พอใช้ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" name="อ่าน"
-        value="พอใช้" />พอใช้ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" name="เขียน"
-        value="พอใช้"/>พอใช้ </p>
-
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ภาษาอื่นๆ ระบุ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-       value="ดีมาก" />ดีมาก &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="อ่าน"
-       value="ดีมาก" />ดีมาก   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="เขียน"
-       value="ดีมาก" />ดีมาก</p>
-
-       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-       value="ดี" />ดี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="อ่าน"
-       value="ดี" />ดี &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="เขียน"
-       value="ดี" />ดี </p>
-
-       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="พูด"
-       value="พอใช้" />พอใช้ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="อ่าน"
-       value="พอใช้" />พอใช้ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="checkbox" name="เขียน"
-       value="พอใช้"/>พอใช้ </p>
-        <p><b> 6.ความรู้ทางคอมพิวเตอร์  &nbsp;&nbsp; ระบุ</b></p>
-        <input type="text" name="........"
-        value="" /><br><br>
-        <p><b>7. ผลงานทางการวิชาการ &nbsp;&nbsp; ระบุ </b></p>
-          <input type="text" name="........"
-          value="" /><br><br>
-          <p><b>8. ประสบการณ์พิเศษอื่นๆ  &nbsp;&nbsp; ระบุ </b></p>
-            <input type="text" name="........"
-            value="" /><br><br>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชื่่อ<input type="text" name=""
-          value="" />ผู้สมัคร</p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<input type="text" name=""
-          value="" />)</p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          /<input type="text" name=""
-          value="" />/
-          <input type="text" name="........"
-          value="" />/<input type="text" name="........"
-          value="" />/<br><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <b>หมายเหตุ</b> &nbsp;&nbsp;กรอกข้อมูลให้ได้รายละเอียดมากที่สุด เพื่อประโยชน์ของท่านเอง เเละสามารถเเนบประวัติเเละเอกสารอื่นๆ
-         เพื่อใช้เป็นข้อมูลในการพิจารณาของท่านเพิ่มเติมพร้อมกับใบสมัครได้
-        </body/>
-        </html>
+<br><CAPTION>5. ภาษา</CAPTION>
+<dd><div class="ภาษาอังกฤษ">
+<br><b>ภาษาอังกฤษ</b></br>
+<p>พูด
+  <input type="radio" name="พูด"
+  value="ดีมาก" />ดีมาก
+  <input type="radio" name="พูด"
+  value="ดี" />ดี
+  <input type="radio" name="พูด"
+  value="พอใช้" />พอใช้
+  </br>
+  <br>
+อ่าน
+  <input type="radio" name="อ่าน"
+  value="ดีมาก" />ดีมาก
+  <input type="radio" name="อ่าน"
+  value="ดี" />ดี
+  <input type="radio" name="อ่าน"
+  value="พอใช้" />พอใช้ </p>
+  เขียน
+    <input type="radio" name="เขียน"
+    value="ดีมาก" />ดีมาก
+    <input type="radio" name="เขียน"
+    value="ดี" />ดี
+    <input type="radio" name="เขียน"
+    value="พอใช้" />พอใช้</p>
+    </br>
+</div></dd>
+<dd><div class="ภาษาอื่นๆ">
+  <br><b>ภาษาอื่นๆ  โปรดระบุ</b><input type="text" id=" " /></br>
+  <p>พูด
+    <input type="radio" name="พูด"
+    value="ดีมาก" />ดีมาก
+    <input type="radio" name="พูด"
+    value="ดี" />ดี
+    <input type="radio" name="พูด"
+    value="พอใช้" />พอใช้
+    </br>
+    <br>
+  อ่าน
+    <input type="radio" name="อ่าน"
+    value="ดีมาก" />ดีมาก
+    <input type="radio" name="อ่าน"
+    value="ดี" />ดี
+    <input type="radio" name="อ่าน"
+    value="พอใช้" />พอใช้
+    </br>
+    <br>
+  เขียน
+    <input type="radio" name="เขียน"
+    value="ดีมาก" />ดีมาก
+    <input type="radio" name="เขียน"
+    value="ดี" />ดี
+    <input type="radio" name="เขียน"
+    value="พอใช้" />พอใช้</p>
+    </br>
+  </div></dd>
+<br><CAPTION>6.ความรู้ทางคอมพิวเตอร์ ระบุ</CAPTION>
+<p>
+  <textarea name="Comments"></textarea>
+</p>
+</br>
+<CAPTION>7. ผลงานทางวิชาการ ระบุุ</CAPTION>
+<p>
+  <textarea name="Comments"></textarea>
+</p>
+</br>
+<CAPTION>8. ประสบการณ์พิเศษอื่น ๆ ระบุุ</CAPTION>
+<p>
+  <textarea name="Comments"></textarea>
+</p>
+</br>
+<center><b>ลงชื่อ</b><input type="text" id=" " />ผู้สมัคร</center>
+<center>(<input type="text" id=" " />)</center>
+<center><input type="text" id="วัน" /value="วัน" />
+        <input type="text" id="เดือน" /value="เดือน" />
+        <input type="text" id="ปี" /value="ปี" /></center>
+ิ<br>
+หมายเหตุ  :
+<p><dd>กรอกข้อมูลให้ได้รายละเอียดมากที่สุด เพื่อประโยชน์ของท่านเอง และสามารถแนบประวัติและเอกสารอื่น ๆ
+<dd>เพื่อใช้เป็นข้อมูลในการพิจารณาตัวท่านเพิ่มเติมพร้อมกับใบสมัครได้
+</br>
+<br>
+<center><input type="submit" name="submitBtn"
+value="ส่งใบสมัคร" /><center>
+</br>
+</font>
+  </body>
+   </html>
